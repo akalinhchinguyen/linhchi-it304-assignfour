@@ -22,7 +22,7 @@ title: IT304 - Linhchi Nguyen
 email: lnguye86@gmu.edu
 description: >- # this means to ignore newlines until "baseurl:"
   IT304 Assignment 4 from Linhchi Nguyen
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/assets/main.css" # the subpath of your site, e.g. /blog
 url: "https://github.com/akalinhchinguyen/linhchi-it304-assignfour" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  akalinhchinguyen
