@@ -23,7 +23,7 @@ email: lnguye86@gmu.edu
 description: >- # this means to ignore newlines until "baseurl:"
   IT304 Assignment 4 from Linhchi Nguyen
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://github.com/akalinhchinguyen/linhchi-it304-assignfour" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  akalinhchinguyen
 
@@ -34,6 +34,16 @@ livereload:
 theme: minima
 plugins:
   - jekyll-feed
+
+sass:
+  load_paths:
+  -_sass
+
+defaults:
+  -scope:
+  path:"assets"
+  values:
+    image:true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
