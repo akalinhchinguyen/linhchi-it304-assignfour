@@ -37,11 +37,11 @@ plugins:
 
 sass:
   load_paths:
-  -_sass
+    -_sass
 
 defaults:
   -scope:
-  path:"assets"
+    path:"assets"
   values:
     image:true
 
